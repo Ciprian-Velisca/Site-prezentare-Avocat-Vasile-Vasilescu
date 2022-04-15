@@ -1,0 +1,140 @@
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 95px;
+    background-color: #34495e;
+}
+
+.dropbutton {
+    background-color: #34495e;
+    border: none;
+    color: #FFFF;
+    font-size: 25px;
+    font-size: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.meniu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-decoration: none;
+    width: 100%;
+    color: #FFFF;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    background-color: #2ecc71;
+    color: white;
+    margin-top: 100px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+    margin-top: 82px;
+}
+
+a:hover {
+    background-color: #34495e;
+    color: darkgoldenrod;
+    font-size: 16px;
+}
+
+.text {
+    background-color: #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 12px;
+    margin-top: 12px;
+    width: 485px;
+    height: auto;
+    padding: 20px;
+    color: white;
+    border: none;
+}
+
+.submit {
+    border: none;
+    border-radius: 12px;
+    margin-top: 12px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 145px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
